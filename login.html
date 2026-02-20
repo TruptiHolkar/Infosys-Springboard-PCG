@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Sign In — Cover Letter Generator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    </head>
+<body>
+
+    <!-- Header (brand only) -->
+    <header class="site-header">
+        <div class="container">
+            <div class="brand">COVER LETTER<br>GENERATOR</div>
+        </div>
+    </header>
+
+    <!-- Hero + centered login -->
+    <main class="hero-wrap">
+        <div class="hero">
+            <h1 class="hero-title">Craft Your Professional CV</h1>
+            <p class="hero-sub">Stand Out to Employers</p>
+        </div>
+
+        <aside class="login-area">
+            <div class="login-card">
+                <div class="avatar"><i class="fa-solid fa-user"></i></div>
+                <h2 class="welcome">Welcome Back 👋</h2>
+                <p class="subtitle">Sign in to explore our website</p>
+
+                <form id="loginForm">
+                    <label class="input-box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="username" name="username" placeholder="Email" required>
+                    </label>
+
+                    <label class="input-box">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                    </label>
+
+                    <div class="options">
+                        <label><input type="checkbox" id="remember"> Remember me</label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+
+                    <button class="btn primary" type="submit">Login</button>
+
+                    <div class="divider"><span>or</span></div>
+
+                    <button type="button" class="btn google" id="googleBtn">
+                        <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google">Continue with Google
+                    </button>
+
+                    <p class="signup">Don’t have an account? <a href="#">Sign up</a></p>
+
+                    <p id="error"></p>
+                </form>
+            </div>
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+        </div>
