@@ -1,3 +1,7 @@
+## 📄 Personalized Cover Letter Generator
+---
+A web-based application designed to create customized and professional cover letters tailored to user-provided details. The generated letter can be exported in PDF or DOCX format for easy job application submission.
+
 ## 🚀 Features
 
 ---
